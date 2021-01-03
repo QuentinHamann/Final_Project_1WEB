@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acceuil</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body id="accueil">
+	<h1 id ="welcome"> Bienvenu sur notre puissance 4 !  </h1>
+	<input type="button" value="Règles" id="one" class="bouton">
+	<input type="button" value="Jeu" id="two" class="bouton">
+	<footer>
+		<p>Créé par Hamann Quentin et Annic Ethann</p>
+	</footer>
+	<script type="text/javascript">
+		let button = document.getElementById('one');
+    	button.addEventListener("click", function règles(){
+        document.location.href="Règles.html";
+    });
+
+    	let button2 = document.getElementById('two');
+    	button2.addEventListener("click", function Jouer(){
+        document.location.href="Puissance4.html";
+    });
+
+	</script>	
+</body>
+</html>
